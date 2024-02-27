@@ -1,0 +1,98 @@
+.sportItems-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sportCards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+.sportCards-describe {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
+  padding-bottom: 30px;
+  h2 {
+      padding: 20px 0 20px 0;
+  }
+}
+.sportCards-title {
+  font-size: 28px;
+  font-weight: 600;
+}
+.sportCards-content {
+  text-align: center;
+  font-size: 19px;
+  font-weight: 540;
+}
+.sport-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+  gap: 60px;
+}
+
+// 翻牌效果
+.flip-card {
+  display: flex;
+  cursor: pointer;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  background-color: rgb(165, 163, 163);
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.flip-card.flipped .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background-color: #dbdbdb;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  img {
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+  }
+}
+
+.flip-card-back {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  transform: rotateY(180deg);
+}
+
+.card-back-title {
+  padding: 50px 0 20px 0;
+  font-size: 30px;
+  font-weight: 550;
+}
+.card-back-content {
+  width: 85%;
+  font-size: 19px;
+  font-weight: 400;
+}

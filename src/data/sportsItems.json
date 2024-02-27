@@ -1,0 +1,86 @@
+[
+    {
+      "id": 1,
+      "type": "aerobicExercise",
+      "name": "跑步",
+      "img": "runningImg",
+      "describtion": "好處包括增強心肺功能、燃燒卡路里、提高耐力。訓練到的部位包括腿部肌肉、臀部肌肉和心血管系統。"
+    },
+    {
+      "id": 2,
+      "type": "aerobicExercise",
+      "name": "游泳",
+      "img": "swimmingImg",
+      "describtion": "好處包括全身性的有氧運動、增強心肺功能、增加肌肉耐力。訓練到的部位包括上肢肌肉、下肢肌肉和核心肌群。"
+    },
+    {
+      "id": 3,
+      "type": "aerobicExercise",
+      "name": "騎腳踏車",
+      "img": "bikingImg",
+      "describtion": "好處包括增強心肺功能、改善下半身力量、提高腿部肌肉耐力。訓練到的部位包括下半身肌肉群（大腿肌群、臀部肌群）和心血管系統。"
+    },
+    {
+      "id": 4,
+      "type": "aerobicExercise",
+      "name": "跳繩",
+      "img": "ropeImg",
+      "describtion": "好處包括增強心肺功能、提高協調性、增加腿部肌肉耐力。訓練到的部位包括小腿肌肉、臀部肌肉和心血管系統。"
+    },
+    {
+      "id": 5,
+      "type": "aerobicExercise",
+      "name": "有氧舞蹈",
+      "img": "aerobicDanceImg",
+      "describtion": "好處包括全身性的有氧運動、增強心肺功能、提升協調性和靈活性。訓練到的部位包括全身肌肉群和心血管系統。"
+    },
+    {
+      "id": 6,
+      "type": "aerobicExercise",
+      "name": "高強度間歇訓練",
+      "img": "intervalExerciseImg",
+      "describtion": "好處包括提高心肺耐力、燃燒大量卡路里、增強肌肉力量和爆發力。訓練到的部位包括全身肌肉群和心血管系統。"
+    },
+    {
+      "id": 7,
+      "type": "workOut",
+      "name": "槓鈴深蹲",
+      "img": "barbellSquatImg",
+      "describtion": "好處包括增強下半身力量、塑造腿部肌肉、提高核心穩定性。訓練到的部位包括大腿肌群、臀部肌群和核心肌群。"
+    },
+    {
+      "id": 8,
+      "type": "workOut",
+      "name": "啞鈴臥推",
+      "img": "dumbbellBenchImg",
+      "describtion": "好處包括增強上半身力量、發展胸肌、肩部和手臂肌肉。訓練到的部位包括胸肌、三角肌和手臂肌肉群。"
+    },
+    {
+      "id": 9,
+      "type": "workOut",
+      "name": "引體向上",
+      "img": "pullUpImg",
+      "describtion": "好處包括增強背部和上肢力量、鍛煉核心肌群。訓練到的部位包括背部肌肉、手臂肌肉和核心肌群。"
+    },
+    {
+      "id": 10,
+      "type": "workOut",
+      "name": "啞鈴推舉",
+      "img": "dumbbellPressImg",
+      "describtion": "好處包括增強肩膀肌肉、提高上肢力量、塑造手臂肌肉。訓練到的部位包括肩膀肌肉群、手臂肌肉群和背部肌肉。"
+    },
+    {
+      "id": 11,
+      "type": "workOut",
+      "name": "槓鈴硬拉",
+      "img": "barbellDeadliftImg",
+      "describtion": "好處包括增強下半身和腰部力量、塑造腿部和臀部肌肉。訓練到的部位包括大腿后侧肌群、臀部肌肉和核心肌群。"
+    },
+    {
+      "id": 12,
+      "type": "workOut",
+      "name": "仰卧起坐",
+      "img": "sitUpsImg",
+      "describtion": "好處包括鍛煉腹肌、增強核心穩定性、改善姿勢。訓練到的部位主要是腹肌和核心肌群。"
+    }
+  ]

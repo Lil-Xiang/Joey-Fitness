@@ -1,0 +1,72 @@
+[
+    {
+      "id": 1,
+      "itemName": "游泳褲",
+      "purpose": "buy",
+      "img": "swimmingPantsImg",
+      "price": 400
+    },
+    {
+      "id": 2,
+      "itemName": "跳繩",
+      "purpose": "buy",
+      "img": "jumpRopeImg",
+      "price": 200
+    },
+    {
+      "id": 3,
+      "itemName": "運動衣",
+      "purpose": "buy",
+      "img": "sportsTShirtImg",
+      "price": 500
+    },
+    {
+      "id": 4,
+      "itemName": "運動褲",
+      "purpose": "buy",
+      "img": "sportPantImg",
+      "price": 600
+    },
+    {
+      "id": 5,
+      "itemName": "運動鞋",
+      "purpose": "buy",
+      "img": "sportsShoesImg",
+      "price": 800
+    },
+    {
+      "id": 6,
+      "itemName": "瑜珈墊",
+      "purpose": "buy",
+      "img": "yogaMatImg",
+      "price": 300
+    },
+    {
+      "id": 7,
+      "itemName": "健力腰帶",
+      "purpose": "buy",
+      "img": "fitnessBeltImg",
+      "price": 900
+    },
+    {
+      "id": 8,
+      "itemName": "啞鈴",
+      "purpose": "buy",
+      "img": "dumbbelImg",
+      "price": 800
+    },
+    {
+      "id": 9,
+      "itemName": "彈力繩",
+      "purpose": "buy",
+      "img": "elasticRopeImg",
+      "price": 150
+    },
+    {
+      "id": 10,
+      "itemName": "健力護碗",
+      "purpose": "buy",
+      "img": "strengthBracersImg",
+      "price": 700
+    }
+]

@@ -1,0 +1,75 @@
+.muscle-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2 {
+        padding: 20px 0 20px 0;
+    }
+}
+.muscle-img-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.muscle-img {//360*693
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    filter: drop-shadow(1.5px 1.5px 0px rgb(138, 137, 137))
+}
+
+.muscle-popUp-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(143, 142, 142, 0.8);
+}
+.muscle-popUp-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    h3 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+}
+
+.muclse-back-btn {
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 15px 0 20px 0;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #0d6efd;
+}
+
+.muclse-train-text {
+    width: 90%;
+}
+.muclse-train-text p:nth-child(1) {
+    padding-top: 15px;
+    font-size: 23px;
+    font-weight: 600;
+  }
+  
+.muclse-train-text p:nth-child(2) {
+    color: rgb(0, 0, 0);
+    padding: 15px 0 0 15px;
+    font-size: 18px;
+    font-weight: 600;
+  }

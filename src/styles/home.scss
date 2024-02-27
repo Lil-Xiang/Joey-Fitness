@@ -1,0 +1,29 @@
+.home-container {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../public/images/homeBackground.jpg");
+}
+
+.home-text {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  span {
+    word-break: break-word;
+    font-weight: 700;
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .home-text {
+    width: 90%;
+  }
+}

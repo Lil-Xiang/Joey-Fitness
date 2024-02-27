@@ -1,0 +1,37 @@
+*,
+html,
+body {
+  margin: 0;
+}
+ul,
+li {
+  display: inline-block;
+  float: none;
+  text-decoration: none;
+  list-style: none;
+}
+button {
+  border: none;
+}
+table {
+  border-collapse: collapse;
+  background-color: #ffffff;
+}
+thead td {
+  background-color: #a3a1a1;
+  width: 100px;
+  font-size: 20px;
+  font-weight: 600;
+}
+td {
+  border: 2px solid #000000;
+  padding: 0.5rem;
+  text-align: center;
+}
+:root {
+  --white: #ffffffee;
+  --black: #000000;
+  --blue1: #c6e2df;
+  --blue2: #6c9190;
+  --blue3: #405757;
+}

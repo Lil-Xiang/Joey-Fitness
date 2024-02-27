@@ -1,0 +1,111 @@
+//大容器
+.selfPlanning-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.selfPlanning-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  h2 {
+    padding: 20px 0 20px 0;
+  }
+}
+//表格
+.table-container {
+  width: 900px;
+  tbody tr td:nth-child(1) {
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #a3a1a1;
+  }
+}
+//下拉式選單容器
+.select-planning {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 30px 0 15px 0;
+  color: #000000;
+  select {
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
+
+.your-choice-degree {
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  h3 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 0 10px 0;
+  }
+  button {
+    margin: 10px 0 40px 0;
+    width: 70px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #0d6efd;
+  }
+}
+.your-choice-text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.choice-all {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  margin-top: 10px;
+  transform: translateX(-3%);
+  strong {
+    font-size: 20px;
+  }
+  input {
+    width: 350px;
+    height: 25px;
+  }
+}
+//要列印出pdf的樣式
+.exercise-schedule {
+  width: 650px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #161a1d;
+  color: #ffffff;
+}
+.exercise-schedule-text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  transform: translateX(-3%);
+  li {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    font-size: 17px;
+    font-weight: 600;
+  }
+  strong {
+    font-size: 20px;
+  }
+}
